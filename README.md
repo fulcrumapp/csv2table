@@ -1,4 +1,26 @@
-csv2table - easily convert static CSV from a web page to an HTML table
+# csv2table
+> Easily convert static CSV from a web page to an HTML table.
+
+![](csv2table.gif)
+
+## Installation
+
+OS X, Linux, and Windows:
+
+```sh
+git clone git@github.com:tgaeta/csv2table.git
+```
+
+## Development setup
+
+Clone repo > Enable 'Developer Mode' in chrome://extensions/ > Load the extension into Chrome
+
+## Release History
+
+* 0.1.0
+    * CHANGE: Updated README.md
+* 0.0.1
+    * Initial release
 
 ## Contributing
 
