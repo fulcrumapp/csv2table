@@ -1,6 +1,6 @@
 {
   "name": "CSV 2 Table",
-  "description": "Convert static CSV to an HTML table",
+  "description": "Easily convert static CSV from any web page to a dynamic and searchable datatable",
   "version": "0.2.0",
   "permissions": [
     "activeTab"
@@ -11,7 +11,7 @@
   },
   "browser_action": {
     "default_icon": "icon.png",
-    "default_title": "Convert static CSV to an HTML table"
+    "default_title": "Easily convert static CSV from any web page to a dynamic and searchable datatable"
   },
   "manifest_version": 2
 }
