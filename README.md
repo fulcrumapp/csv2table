@@ -1,7 +1,7 @@
 # csv2table
-> Easily convert static CSV from a web page to an HTML table.
+> Easily convert static CSV from a web page to a dynamic/searchable  dataTable.
 
-![](csv2table.gif)
+![](https://d3uepj124s5rcx.cloudfront.net/items/113V000E0S2M0F1O3J3j/csv-viewer.gif?v=a08b2e47)
 
 ## Installation
 
@@ -16,7 +16,8 @@ git clone git@github.com:tgaeta/csv2table.git
 Clone repo > Enable 'Developer Mode' in chrome://extensions/ > Load the extension into Chrome
 
 ## Release History
-
+* 0.2.0
+    * CHANGE: Added dataTables
 * 0.1.0
     * CHANGE: Updated README.md
 * 0.0.1
@@ -27,8 +28,6 @@ Clone repo > Enable 'Developer Mode' in chrome://extensions/ > Load the extensio
 The source is hosted on [GitHub](https://github.com/tgaeta/csv2table) and pull requests are welcome.
 
 ## License
-
-For copyright status of the "CSVToArray" code, please see [Ben Nadel's Parsing CSV Strings With Javascript Exec() Regular Expression Command Tutorial](https://www.bennadel.com/blog/1504-ask-ben-parsing-csv-strings-with-javascript-exec-regular-expression-command.htm). Everything else is:
 
 Copyright (C) 2017 [Tony Gaeta](https://github.com/tgaeta)
 
