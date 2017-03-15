@@ -1,5 +1,5 @@
 # csv2table
-> Easily convert static CSV from a web page to a dynamic/searchable  dataTable.
+> Easily convert static CSV from any web page to a dynamic and searchable datatable
 
 ![](https://d3uepj124s5rcx.cloudfront.net/items/113V000E0S2M0F1O3J3j/csv-viewer.gif?v=a08b2e47)
 
