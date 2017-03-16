@@ -1,3 +1,5 @@
 node_modules/
 csv2table.zip
 content_script.js
+fonts/
+styles.css

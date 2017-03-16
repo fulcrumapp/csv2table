@@ -478,6 +478,10 @@ bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
   version "4.11.6"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.6.tgz#53344adb14617a13f6e8dd2ce28905d1c0ba3215"
 
+bootstrap@^3.3.7:
+  version "3.3.7"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-3.3.7.tgz#5a389394549f23330875a3b150656574f8a9eb71"
+
 brace-expansion@^1.0.0:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.6.tgz#7197d7eaa9b87e648390ea61fc66c84427420df9"
@@ -751,7 +755,14 @@ csv-parse@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-1.2.0.tgz#047b73868ab9a85746e885f637f9ed0fb645a425"
 
-datatables.net@^1.10.13:
+datatables.net-bs@^1.10.13:
+  version "1.10.13"
+  resolved "https://registry.yarnpkg.com/datatables.net-bs/-/datatables.net-bs-1.10.13.tgz#794ab40a21afdf8b40ff762f7ea9a06ead9f8a2c"
+  dependencies:
+    datatables.net ">=1.10.9"
+    jquery ">=1.7"
+
+datatables.net@>=1.10.9, datatables.net@^1.10.13:
   version "1.10.13"
   resolved "https://registry.yarnpkg.com/datatables.net/-/datatables.net-1.10.13.tgz#6ac584ba6fc2dff1195e5c66d3e3b051a4b52b96"
   dependencies:
