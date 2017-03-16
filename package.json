@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "browserify -t [ babelify --presets [ es2015 ] ] -g uglifyify index.js > content_script.js"
+    "build": "browserify -t [ babelify --presets [ es2015 ] ] -g uglifyify index.js > content_script.js && rm -f csv2table.zip || true && zip csv2table.zip background.js content_script.js icon.png manifest.json"
   },
   "dependencies": {
     "babel-preset-es2015": "^6.24.0",
