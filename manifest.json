@@ -1,7 +1,7 @@
 {
   "name": "CSV 2 Table",
   "description": "Easily convert static CSV from any web page to a dynamic and searchable datatable",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "permissions": [
     "activeTab"
   ],
@@ -13,5 +13,15 @@
     "default_icon": "icon.png",
     "default_title": "Easily convert static CSV from any web page to a dynamic and searchable datatable"
   },
-  "manifest_version": 2
+  "manifest_version": 2,
+  "web_accessible_resources": [
+    "fonts/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*.csv"],
+      "js": ["content_script.js"],
+      "css" : ["styles.css"]
+    }
+  ]
 }
