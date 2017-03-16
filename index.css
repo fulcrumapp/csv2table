@@ -5,13 +5,20 @@
   right: 0;
   padding: 10px;
   z-index: 9999999;
-  background-color: #fff;
-  border-bottom: 1px solid #f8f8f8;
+  background-color: #fafafb;
+  box-shadow: 0 1px 0 rgba(12,13,14,0.15);
+  border-top: 3px solid #2980B9;
+  opacity: 0;
 }
+
+table {
+  max-width: none;
+}
+
 
 table.dataTable {
   font-size: 12px;
-  margin-top: 55px !important;
+  margin-top: 52px !important;
 }
 
 .dataTables_wrapper .dataTables_filter input {
@@ -23,4 +30,12 @@ table.dataTable {
 
 .dataTables_wrapper {
   overflow: scroll;
+}
+
+.form-control {
+  margin-bottom: 0 !important;
+}
+
+label {
+    margin-bottom: 0 !important;
 }

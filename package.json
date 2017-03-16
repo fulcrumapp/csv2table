@@ -10,6 +10,8 @@
     "csv-parse": "^1.2.0",
     "datatables.net": "^1.10.13",
     "datatables.net-bs": "^1.10.13",
+    "datatables.net-fixedheader": "^3.1.2",
+    "datatables.net-fixedheader-bs": "^3.1.2",
     "helper-html-table": "^0.1.1",
     "jquery": "^3.1.1",
     "style-tag": "^0.1.1",

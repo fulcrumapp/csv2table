@@ -755,9 +755,24 @@ csv-parse@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-1.2.0.tgz#047b73868ab9a85746e885f637f9ed0fb645a425"
 
-datatables.net-bs@^1.10.13:
+datatables.net-bs@>=1.10.9, datatables.net-bs@^1.10.13:
   version "1.10.13"
   resolved "https://registry.yarnpkg.com/datatables.net-bs/-/datatables.net-bs-1.10.13.tgz#794ab40a21afdf8b40ff762f7ea9a06ead9f8a2c"
+  dependencies:
+    datatables.net ">=1.10.9"
+    jquery ">=1.7"
+
+datatables.net-fixedheader-bs@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/datatables.net-fixedheader-bs/-/datatables.net-fixedheader-bs-3.1.2.tgz#bf5906dc82f8e490be16c08e7f2707ff77690261"
+  dependencies:
+    datatables.net-bs ">=1.10.9"
+    datatables.net-fixedheader ">=3.0.0"
+    jquery ">=1.7"
+
+datatables.net-fixedheader@>=3.0.0, datatables.net-fixedheader@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/datatables.net-fixedheader/-/datatables.net-fixedheader-3.1.2.tgz#cbd1fb35406acbef8cca935bb9642e803204b5d0"
   dependencies:
     datatables.net ">=1.10.9"
     jquery ">=1.7"
