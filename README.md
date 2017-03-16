@@ -16,6 +16,10 @@ git clone git@github.com:tgaeta/csv2table.git
 Clone repo > Enable 'Developer Mode' in chrome://extensions/ > Load the extension into Chrome
 
 ## Release History
+* 0.2.2
+    * CHANGE: Add dependencies and minify the content_script
+* 0.2.1
+    * CHANGE: Update manifest_version
 * 0.2.0
     * CHANGE: Added dataTables
 * 0.1.0
