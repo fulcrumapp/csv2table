@@ -1,23 +1,23 @@
-.dataTables_filter {
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  padding: 10px;
-  z-index: 9999999;
-  background-color: #fafafb;
-  box-shadow: 0 1px 0 rgba(12,13,14,0.15);
-  border-top: 3px solid #2980B9;
-}
-
 table {
   max-width: none;
 }
 
+table tbody td {
+  min-width: 100px !important;
+}
 
-table.dataTable {
+.dataTable {
   font-size: 12px;
-  margin-top: 52px !important;
+}
+
+.dataTables_filter {
+  background: -moz-linear-gradient(right, rgba(250, 250, 251,0), rgba(250, 250, 251,1));
+  background: -o-linear-gradient(right, rgba(250, 250, 251,0), rgba(250, 250, 251,1));
+  background: -webkit-linear-gradient(left, rgba(250, 250, 251,0), rgba(250, 250, 251,1));
+  background: linear-gradient(to right, rgba(250, 250, 251,0), rgba(250, 250, 251,1));
+  box-shadow: 0 1px 0 rgba(12, 13, 14, 0.15);
+  margin-bottom: -6px;
+  padding: 10px;
 }
 
 .dataTables_wrapper .dataTables_filter input {
@@ -27,14 +27,6 @@ table.dataTable {
   padding: 5px;
 }
 
-.dataTables_wrapper {
-  overflow: scroll;
-}
-
-.form-control {
+.form-control, label {
   margin-bottom: 0 !important;
-}
-
-label {
-    margin-bottom: 0 !important;
 }
