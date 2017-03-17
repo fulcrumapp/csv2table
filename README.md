@@ -9,6 +9,9 @@ OS X, Linux, and Windows:
 
 ```sh
 git clone git@github.com:tgaeta/csv2table.git
+cd csv2table
+yarn
+yarn run build
 ```
 
 ## Development setup
