@@ -1,7 +1,7 @@
 {
   "name": "CSV 2 Table",
   "description": "Easily convert static CSV from any web page to a dynamic and searchable datatable",
-  "version": "0.2.3",
+  "version": "1.0",
   "permissions": [
     "activeTab"
   ],

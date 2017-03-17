@@ -16,6 +16,8 @@ git clone git@github.com:tgaeta/csv2table.git
 Clone repo > Enable 'Developer Mode' in chrome://extensions/ > Load the extension into Chrome
 
 ## Release History
+* 1.0
+    * Fixed-header support! Bootstrap! Static CSV prints to console.
 * 0.2.2
     * CHANGE: Add dependencies and minify the content_script
 * 0.2.1
@@ -47,4 +49,3 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
